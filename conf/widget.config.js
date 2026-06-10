@@ -36,12 +36,14 @@ module.exports = {
   MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
+     
     {
      name: 'A Million Dreams',
       artist: 'P!nk',
       url: 'https://pub-584a6da68ec1441394a0ac567eba2a2d.r2.dev/A%20Million%20Dreams-P.nk%23hnsFY.mp3',
       cover:
         'https://p3.music.126.net/6fCQlpFaZaqIMhT8mfaKow==/109951163909546975.jpg'
+      lrcType: 3
       lrc: 'https://pub-584a6da68ec1441394a0ac567eba2a2d.r2.dev/A%20Million%20Dreams%20-%20P!nk.lrc'
     },
     {
@@ -50,6 +52,7 @@ module.exports = {
       url: 'https://pub-584a6da68ec1441394a0ac567eba2a2d.r2.dev/Born%20This%20Way-Lady%20Gaga%231Aw0t.mp3',
       cover:
         'https://p3.music.126.net/UXeOm5hy2nvf524Uj1358w==/109951166161964174.jpg'
+      lrcType: 3
       lrc: 'https://pub-584a6da68ec1441394a0ac567eba2a2d.r2.dev/Born%20This%20Way%20-%20Lady%20Gaga.lrc'
     }
   ],

@@ -41,7 +41,7 @@ module.exports = {
       artist: 'P!nk',
       url: 'https://pub-584a6da68ec1441394a0ac567eba2a2d.r2.dev/A%20Million%20Dreams-P.nk%23hnsFY.mp3',
       cover:
-        'https://p3.music.126.net/6fCQlpFaZaqIMhT8mfaKow==/109951163909546975.jpg'
+        'https://p3.music.126.net/6fCQlpFaZaqIMhT8mfaKow==/109951163909546975.jpg',
       lrc: 'https://pub-584a6da68ec1441394a0ac567eba2a2d.r2.dev/A%20Million%20Dreams%20-%20P!nk.lrc'
     },
     {
@@ -49,7 +49,7 @@ module.exports = {
       artist: 'Lady Gaga',
       url: 'https://pub-584a6da68ec1441394a0ac567eba2a2d.r2.dev/Born%20This%20Way-Lady%20Gaga%231Aw0t.mp3',
       cover:
-        'https://p3.music.126.net/UXeOm5hy2nvf524Uj1358w==/109951166161964174.jpg'
+        'https://p3.music.126.net/UXeOm5hy2nvf524Uj1358w==/109951166161964174.jpg',
       lrc: 'https://pub-584a6da68ec1441394a0ac567eba2a2d.r2.dev/Born%20This%20Way%20-%20Lady%20Gaga.lrc'
     }
   ],

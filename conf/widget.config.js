@@ -51,6 +51,13 @@ module.exports = {
       cover:
         'https://p3.music.126.net/UXeOm5hy2nvf524Uj1358w==/109951166161964174.jpg',
       lrc: 'https://pub-584a6da68ec1441394a0ac567eba2a2d.r2.dev/Born%20This%20Way%20-%20Lady%20Gaga.lrc'
+    },
+    {
+      name: 'This Is Me',
+      artist: 'Keala Settle',
+      url:'https://pub-584a6da68ec1441394a0ac567eba2a2d.r2.dev/This%20Is%20Me.flac',
+      cover:'https://p4.music.126.net/jatkhsyg4zi2g-YEWbkQcg==/18010000463236048.jpg',
+      lrc:'https://pub-584a6da68ec1441394a0ac567eba2a2d.r2.dev/This%20Is%20Me%20-%20Keala%20Settle%2CThe%20Greatest%20Showman%20Ensemble.lrc'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
